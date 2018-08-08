@@ -12,6 +12,7 @@
 		453A2993211B60E700644F6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453A2991211B60E700644F6A /* Main.storyboard */; };
 		453A2995211B60FB00644F6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453A2994211B60FB00644F6A /* Assets.xcassets */; };
 		453A2998211B60FB00644F6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453A2996211B60FB00644F6A /* LaunchScreen.storyboard */; };
+		453A29A0211B689800644F6A /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A299F211B689800644F6A /* CalendarCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		453A2994211B60FB00644F6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		453A2997211B60FB00644F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		453A2999211B60FB00644F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		453A299F211B689800644F6A /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				453A2994211B60FB00644F6A /* Assets.xcassets */,
 				453A2996211B60FB00644F6A /* LaunchScreen.storyboard */,
 				453A2999211B60FB00644F6A /* Info.plist */,
+				453A299F211B689800644F6A /* CalendarCollectionViewCell.swift */,
 			);
 			path = "Make your own calendar";
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				453A29A0211B689800644F6A /* CalendarCollectionViewCell.swift in Sources */,
 				453A2990211B60E700644F6A /* ViewController.swift in Sources */,
 				453A298E211B60E700644F6A /* AppDelegate.swift in Sources */,
 			);
@@ -283,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5HXD835SDF;
 				INFOPLIST_FILE = "Make your own calendar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5HXD835SDF;
 				INFOPLIST_FILE = "Make your own calendar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
